@@ -1,0 +1,38 @@
+{
+  "name": "ang2",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "entry.js",
+  "scripts": {
+    "dev": "webpack-dev-server --env development",
+    "test": "webpack -test",
+    "prod": "webpack --env production"
+  },
+  "author": "Denis Dremkov",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/animations": "^4.2.4",
+    "@angular/common": "^4.2.4",
+    "@angular/compiler": "^4.2.4",
+    "@angular/core": "^4.2.4",
+    "@angular/forms": "^4.2.4",
+    "@angular/http": "^4.2.4",
+    "@angular/platform-browser": "^4.2.4",
+    "@angular/platform-browser-dynamic": "^4.2.4",
+    "@angular/router": "^4.2.4",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.4.2",
+    "zone.js": "^0.8.14"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.16.1",
+    "raw-loader": "^0.5.1",
+    "reflect-metadata": "^0.1.10",
+    "sass-loader": "^6.0.6",
+    "ts-loader": "^2.3.6",
+    "typescript": "~2.3.1",
+    "webpack": "2.2.1",
+    "webpack-dev-server": "2.4.1",
+    "webpack-merge": "^3.0.0"
+  }
+}
